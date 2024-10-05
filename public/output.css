@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background: #000;
+}
+
+.mainClass{
+}
+
+.Globe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.textWhite {
+    color: white;
+}
+
+.Navbar{
+}
+
+.shadow-div {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* Shadow effect */
+  padding: 20px; /* Optional: padding inside the div */
+}
