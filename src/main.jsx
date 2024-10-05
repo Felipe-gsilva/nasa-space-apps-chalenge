@@ -11,9 +11,9 @@ function App() {
     const [renderGlobe, setRenderGlobe] = useState(true)
     return (
         <div className="mainClass" >
-            <Navbar expand="lg" className="Navbar shadow-div ">
+            <Navbar expand="lg" className="Navbar ">
                 <Container>
-                    <Navbar.Brand href="#home">Cloju-1003</Navbar.Brand>
+                    <Navbar.Brand href="#home" className="text-white">Cloju-1003</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto ">

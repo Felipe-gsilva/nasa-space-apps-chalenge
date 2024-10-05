@@ -5,55 +5,47 @@ import ReactGlobe from "react-globe";
 function Globe() {
 
     const markertext = [
-        {id: 1, text: "O primeiro fator que define Cloju-1003 é sua atmosfera densa, que reflete grande parte da luz solar. Isso impede que a luz chegue às profundezas oceânicas, onde a maioria dos organismos vive. A atmosfera é rica em gases como metano e hidrogênio, além de elementos como ferro, criando um ambiente favorável à quimiossíntese, processo pelo qual organismos oxidam substâncias químicas para obter energia. A água e o solo são ricos em sulfatos e nitratos, fornecendo as bases químicas necessárias para a vida quimiossintética. Vulcões submarinos, ativos em todo o planeta, liberam compostos úteis, como sulfeto de hidrogênio, que são utilizados por organismos quimiossintéticos para converter energia química em energia biológica"},
-        {id: 2, text: "texto"},
-        {id: 3, text: "texto"},
-        {id: 4, text: "texto"},
-        {id: 5, text: "texto"},
-        {id: 6, text: "texto"},
+        {id: 1, text: "The first factor that defines Cloju-1003 is its dense atmosphere, which reflects a large portion of sunlight. This prevents light from reaching the ocean depths, where most organisms live. The atmosphere is rich in gases such as methane and hydrogen, as well as elements like iron, creating an environment favorable to chemosynthesis, the process by which organisms oxidize chemical substances to obtain energy. Water and soil are rich in sulfates and nitrates, providing the necessary chemical foundations for chemosynthetic life. Submarine volcanoes, active throughout the planet, release useful compounds such as hydrogen sulfide, which are used by chemosynthetic organisms to convert chemical energy into biological energy."},
+        {id: 2, text: "Unlike traditional terrestrial ecosystems, where the photosynthesis of plants and algae is the primary energy pathway, the ecosystem of Cloju-1003 is sustained by chemoautotrophic organisms. These organisms oxidize elements like iron and sulfur present in the environment to obtain energy. For example, bacteria specialized in oxidizing iron or hydrogen sulfide are abundant, taking advantage of the chemical compounds released by submarine volcanoes. These organisms form the base of the food chain, playing a role equivalent to that of plants on Earth."},
+        {id: 3, text: " The organisms that live in Cloju-1003 have developed extraordinary adaptations to survive the planet's extreme conditions. The high pressure in the depths of the oceans and extreme temperatures, often around hydrothermal vents, require unique physiological adaptations. Both chemosynthetic organisms and the consumers that depend on them are highly resistant to extreme temperature variations, with cell membranes and proteins that withstand intense heat and pressure. Additionally, many species have established symbiotic relationships to maximize their survival. For example, there are organisms that, through specialized adaptations like tentacles, absorb nutrients directly from chemosynthetic bacteria. These bacteria live within the tissues of their hosts, producing energy for both. These interactions are essential for life on Cloju-1003, as the available energy is scarce and difficult to obtain. Symbiosis ensures an efficient exchange of resources and mutual survival, forming the basis of many food chains on the planet. "},
+        {id: 4, text: " Another important aspect of the ecology of Cloju-1003 is the presence of decomposer organisms that use the fermentation of organic substrates to generate their own energy. These organisms play a crucial role in the nutrient cycle, decomposing dead organic matter and releasing compounds that can be reused by chemosynthetic organisms. This creates a closed energy cycle, essential for sustaining the ecosystem in an environment where resources are limited. The food chains of Cloju-1003, therefore, are based on chemosynthetic organisms, which are consumed by larger organisms, which in turn are preyed upon by others. At the top of these food chains may be organisms that indirectly depend on chemosynthesis, living in high-pressure, high-heat environments and harnessing the energy that flows through the ecosystem. "},
+        {id: 5, text: "The resilience of the Cloju-1003 ecosystem is largely ensured by the complex symbiotic relationships that have developed over time. Chemosynthetic organisms form partnerships with larger species that have developed special adaptations, such as tentacles and body cavities, to house the chemosynthetic bacteria. In return, these bacteria provide essential nutrients for their hosts. Symbiosis is fundamental in Cloju-1003, as it optimizes the use of the scarce chemical resources available, allowing species to survive in extreme conditions of temperature, pressure, and energy availability."},
     
     ];
     const markers = [
         {
             id: '1',
-            city: '',
+            city: ' Extreme Environmental Conditions ',
             color: 'red',
             coordinates: [1.3521, 103.8198],
             value: 135,
         },
         {
             id: '2',
-            city: 'New York',
+            city: 'Ecosystem Based on Chemosynthesis',
             color: 'blue',
             coordinates: [40.73061, -73.935242],
             value: 135,
         },
         {
             id: '3',
-            city: 'San Francisco',
+            city: 'Adaptations of Organisms to Life in Cloju-1003',
             color: 'orange',
             coordinates: [37.773972, -122.431297],
             value: 135,
         },
         {
             id: '4',
-            city: 'Beijing',
+            city: 'Food Chains and Fermentation',
             color: 'gold',
             coordinates: [39.9042, 116.4074],
             value: 135,
         },
         {
             id: '5',
-            city: 'London',
+            city: 'Symbiotic Relationships and Ecological Resilience',
             color: 'green',
             coordinates: [51.5074, 0.1278],
-            value: 135,
-        },
-        {
-            id: '6',
-            city: 'Los Angeles',
-            color: 'gold',
-            coordinates: [29.7604, -95.3698],
             value: 135,
         },
     ];
