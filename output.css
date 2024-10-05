@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.mainClass{
+    width: 100%;
+
+}
+
+.Globe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.textWhite {
+    color: white;
+    transition: all;
+}
+
+.textWhite:hover {
+    color: lightgray;
+}
+
+
+.Navbar{
+    background: #000;
+}
+
+
+.shadow-div {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* Shadow effect */
+  padding: 20px; /* Optional: padding inside the div */
+}
+
+.clickable {
+    pointer-events: auto; /* Enables pointer events */
+    cursor: pointer; 
+}
+
+.blue-button {
+  background-color: #007bff; 
+  color: white;              
+  padding: 10px 20px;        
+  border: none;              
+  border-radius: 4px;        
+  cursor: pointer;           
+  font-size: 16px;           
+  transition: background-color 0.3s ease; 
+}
+
+.blue-button:hover {
+  background-color: #0056b3;
+}
+
+.bg {
+    background-image: url("background.png");
+    background-size: cover;        
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+    width:40%;
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
