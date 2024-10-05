@@ -12,13 +12,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    
+    color: white;
 }
 
 .textWhite {
     color: white;
+    transition: all;
 }
+
+.textWhite:hover {
+    color: lightgray;
+}
+
 
 .Navbar{
 }

@@ -5,7 +5,7 @@ import ReactGlobe from "react-globe";
 function Globe() {
 
     const markertext = [
-        {id: 1, text: "texto"},
+        {id: 1, text: "O primeiro fator que define Cloju-1003 é sua atmosfera densa, que reflete grande parte da luz solar. Isso impede que a luz chegue às profundezas oceânicas, onde a maioria dos organismos vive. A atmosfera é rica em gases como metano e hidrogênio, além de elementos como ferro, criando um ambiente favorável à quimiossíntese, processo pelo qual organismos oxidam substâncias químicas para obter energia. A água e o solo são ricos em sulfatos e nitratos, fornecendo as bases químicas necessárias para a vida quimiossintética. Vulcões submarinos, ativos em todo o planeta, liberam compostos úteis, como sulfeto de hidrogênio, que são utilizados por organismos quimiossintéticos para converter energia química em energia biológica"},
         {id: 2, text: "texto"},
         {id: 3, text: "texto"},
         {id: 4, text: "texto"},
@@ -16,24 +16,24 @@ function Globe() {
     const markers = [
         {
             id: '1',
-            city: 'Singapore',
+            city: '',
             color: 'red',
             coordinates: [1.3521, 103.8198],
-            value: 19,
+            value: 135,
         },
         {
             id: '2',
             city: 'New York',
             color: 'blue',
             coordinates: [40.73061, -73.935242],
-            value: 25,
+            value: 135,
         },
         {
             id: '3',
             city: 'San Francisco',
             color: 'orange',
             coordinates: [37.773972, -122.431297],
-            value: 35,
+            value: 135,
         },
         {
             id: '4',
@@ -47,22 +47,22 @@ function Globe() {
             city: 'London',
             color: 'green',
             coordinates: [51.5074, 0.1278],
-            value: 80,
+            value: 135,
         },
         {
             id: '6',
             city: 'Los Angeles',
             color: 'gold',
             coordinates: [29.7604, -95.3698],
-            value: 54,
+            value: 135,
         },
     ];
 
 
     const options = {
         ambientLightColor: 'blue',
-        cameraRotateSpeed: 0.5,
-        focusAnimationDuration: 2000,
+        cameraRotateSpeed: 0.8,
+        focusAnimationDuration: 1200,
         focusEasingFunction: ['Linear', 'None'],
         pointLightColor: 'white',
         pointLightIntensity: 1.5,
@@ -78,6 +78,7 @@ function Globe() {
         position: 'fixed',
         top: '30%',
         right: '30%',
+        left: '30%',
         backgroundColor: 'rgba(0, 0, 0, 0.7)',
         color: 'white',
         padding: '10px',
