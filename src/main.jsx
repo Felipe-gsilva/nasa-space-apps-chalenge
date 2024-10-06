@@ -61,6 +61,7 @@ function App() {
                 </div> }
             {renderPage && !renderGlobe && 
                 <div className="bg main">
+                    <div className="margin-top"> </div>
                     <div className="cards"> 
                         <Card 
                             title="Planet Overview" 
