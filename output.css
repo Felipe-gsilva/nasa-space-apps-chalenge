@@ -6,7 +6,6 @@
 
 .mainClass{
     width: 100%;
-
 }
 
 .Globe {
@@ -28,6 +27,8 @@
 
 .Navbar{
     background: #000;
+    position: absolute;
+    width:100vw;
 }
 
 
