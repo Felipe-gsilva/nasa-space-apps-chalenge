@@ -9,6 +9,7 @@ import WhiteButton from "./WhiteButton.jsx"
 import Logo from "./Logo.jsx"
 import Card from "./Card.jsx"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../public/output.css'
 
 function App() {
     const [renderGlobe, setRenderGlobe] = useState(false)

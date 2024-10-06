@@ -1,5 +1,10 @@
 # Nasa Space Apps Challenge
 
+
+[test it out!](https://felipe-gsilva.github.io/nasa-space-apps-chalenge/)
+
+## Overview 
+
 Our mission was to create an interactive educational application that explores life in an extreme environment where chemosynthesis, rather than photosynthesis, forms the basis of the food chain. The project envisions a fictional world, Cloju 1003, with deep oceans where sunlight cannot reach, an atmosphere rich in methane and iron, and an ecosystem sustained by organisms that oxidize inorganic elements to obtain energy. The developed platform offers an immersive simulation of this planet through an interactive web page, with highlighted points that allow users to explore key topics about the functioning of this unique ecosystem.
 
 Each interactive point reveals information on fundamental aspects of Cloju 1003, such as extreme environmental conditions, which explain how life thrives in the absence of sunlight, using chemical energy from sources like underwater volcanoes. Users learn about the ecosystem based on chemosynthesis, where bacteria oxidize iron and sulfur, and about organism adaptations, where life develops resistance to extreme pressure and temperatures. Additionally, the site details food chains sustained by chemolithotrophs, showing how larger organisms rely on symbionts that host these chemosynthetic bacteria, creating a web of ecological interactions.
