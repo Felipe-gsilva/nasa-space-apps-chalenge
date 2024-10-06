@@ -42,7 +42,7 @@ function App() {
                                 setRenderGlobe(false)
                                 setRenderDetails(false)
                                 setRenderPage(true)
-                            }} className="text-white">More</Nav.Link>
+                            }} className="text-white">Read More</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
