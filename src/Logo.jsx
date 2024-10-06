@@ -1,9 +1,10 @@
 import React from 'react';
+import texture from "/logo.png";
 
 function Logo () {
     return (
         <div className="logo-div" >
-            <img src="/logo.png" className="logo"/>
+            <img src={texture} className="logo"/>
         </div>
   );
 }

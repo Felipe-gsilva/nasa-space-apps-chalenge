@@ -50,10 +50,28 @@
   cursor: pointer;           
   font-size: 16px;           
   transition: background-color 0.3s ease; 
+  margin-right: 5px;  
 }
 
 .blue-button:hover {
   background-color: #0056b3;
+}
+
+
+.white-button{
+  background-color: #fff; 
+  color: black;              
+  padding: 10px 20px;        
+  border: none;              
+  border-radius: 4px;        
+  cursor: pointer;           
+  font-size: 16px;           
+  transition: background-color 0.3s ease; 
+  margin-left: 5px;  
+}
+
+.white-button:hover {
+  background-color: #f2f2f2;
 }
 
 .bg {
@@ -85,3 +103,35 @@
     align-items: center;
     margin: 50px;
 }
+
+.buttons {
+    display:flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 30%;
+}
+
+
+.card-container {
+    width: 40%;
+    height: 80%;
+    background-color: rgba(0,0,0, 0.2);
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden; 
+    padding: 1rem;
+}
+.globe {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    border-radius: 4px;
+}
+
+

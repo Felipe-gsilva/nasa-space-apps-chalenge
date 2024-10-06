@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import ReactDOM from "react-dom";
 import ReactGlobe from "react-globe";
+import globeTexture from "/globe.jpg";
+
 
 function Globe() {
 
@@ -85,11 +87,11 @@ function Globe() {
 
     console.log(hidden);
     return (
-        <div>
+        <div className="bg globe">
             <ReactGlobe 
                 height="100vh" 
                 width="100vw"
-                globeTexture="/globe.jpg" 
+                globeTexture={globeTexture}
                 options={options} 
                 markers={markers}
                 onClickMarker={(e) => {
